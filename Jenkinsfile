@@ -19,7 +19,7 @@ pipeline {
                 script {
                     sh 'pwd'
                     sh 'ls -lrt'
-                    docker.build("MyImage:latest", "-f Dockerfile")
+                    docker.build("MyImage:latest", "")
                 }
             }
         }
