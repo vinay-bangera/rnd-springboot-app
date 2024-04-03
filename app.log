@@ -1,0 +1,32 @@
+22:41:10,308 INFO  [org.hibernate.validator.internal.util.Version] - HV000001: Hibernate Validator 6.0.16.Final
+ 22:41:10,448 INFO  [com.rnd.App] - Starting App on Mini.local with PID 13018 (/Users/admin/Documents/GitHub/rnd-springboot-app/target/classes started by admin in /Users/admin/Documents/GitHub/rnd-springboot-app)
+ 22:41:10,449 INFO  [com.rnd.App] - No active profile set, falling back to default profiles: default
+ 22:41:11,543 INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 8080 (http)
+ 22:41:11,651 INFO  [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 1157 ms
+ 22:41:11,695 INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler] - Initializing ExecutorService 'threadPoolTaskScheduler'
+ 22:41:11,721 INFO  [org.quartz.impl.StdSchedulerFactory] - Using default implementation for ThreadExecutor
+ 22:41:11,729 INFO  [org.quartz.core.SchedulerSignalerImpl] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+ 22:41:11,729 INFO  [org.quartz.core.QuartzScheduler] - Quartz Scheduler v.2.3.1 created.
+ 22:41:11,730 INFO  [org.quartz.simpl.RAMJobStore] - RAMJobStore initialized.
+ 22:41:11,730 INFO  [org.quartz.core.QuartzScheduler] - Scheduler meta-data: Quartz Scheduler (v2.3.1) 'scheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+ 22:41:11,730 INFO  [org.quartz.impl.StdSchedulerFactory] - Quartz scheduler 'scheduler' initialized from an externally provided properties instance.
+ 22:41:11,730 INFO  [org.quartz.impl.StdSchedulerFactory] - Quartz scheduler version: 2.3.1
+ 22:41:11,731 INFO  [org.quartz.core.QuartzScheduler] - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@574cd322
+ 22:41:12,085 INFO  [org.springframework.scheduling.quartz.SchedulerFactoryBean] - Starting Quartz Scheduler now
+ 22:41:12,085 INFO  [org.quartz.core.QuartzScheduler] - Scheduler scheduler_$_NON_CLUSTERED started.
+ 22:41:12,114 INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 8080 (http) with context path ''
+ 22:41:12,118 INFO  [com.rnd.App] - Started App in 1.917 seconds (JVM running for 2.288)
+ 22:41:14,927 INFO  [org.quartz.core.QuartzScheduler] - Scheduler scheduler_$_NON_CLUSTERED paused.
+ 22:41:14,929 INFO  [org.springframework.scheduling.quartz.SchedulerFactoryBean] - Shutting down Quartz Scheduler
+ 22:41:14,929 INFO  [org.quartz.core.QuartzScheduler] - Scheduler scheduler_$_NON_CLUSTERED shutting down.
+ 22:41:14,929 INFO  [org.quartz.core.QuartzScheduler] - Scheduler scheduler_$_NON_CLUSTERED paused.
+ 22:41:14,930 INFO  [org.quartz.core.QuartzScheduler] - Scheduler scheduler_$_NON_CLUSTERED shutdown complete.
+ 22:41:14,930 INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler] - Shutting down ExecutorService 'threadPoolTaskScheduler'
+ 
