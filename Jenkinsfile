@@ -14,7 +14,9 @@ pipeline {
         stage ('Build Docker image')  {
             label 'ansible'
             steps {
-                docker.build("MyImage:latest", "-f Dockerfile")
+                script{
+                    docker.build("MyImage:latest", "-f Dockerfile")
+                }
             }
         }
 
