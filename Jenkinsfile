@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage ('Stage 1')  {
             steps {
-                sh 'ls -lrt'
+                sh 'mvn clean install'
             }
         }
     }
