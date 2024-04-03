@@ -12,9 +12,11 @@ pipeline {
             }
         }
         stage ('Build Docker image')  {
-            label 'ansible'
+            agent {
+                label 'ansible'
+            }
             steps {
-                script{
+                script {
                     docker.build("MyImage:latest", "-f Dockerfile")
                 }
             }
