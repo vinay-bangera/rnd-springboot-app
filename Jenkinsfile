@@ -17,7 +17,8 @@ pipeline {
             }
             steps {
                 script {
-                    ls -lrt
+                    sh 'pwd'
+                    sh 'ls -lrt'
                     docker.build("MyImage:latest", "-f Dockerfile")
                 }
             }
